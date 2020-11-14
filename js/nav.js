@@ -5,22 +5,22 @@ const navs = [{
     Alt: ' Click here to view the home link '
 },
 {
-    Text: ' About Us ',
-    Url: ' link-1.html ',
+    Text: ' Mick Deal ',
+    Url: ' mickdeal.html ',
     Class: ' link-1',
-    Alt: ' Click Here to visit Link-1 '
-},
-{
-    Text: ' Menu ',
-    Url: ' link-2.html',
-    Class: ' link-2 ',
-    Alt: ' Click here to visit Link-2 '
+    Alt: ' Click Here to visit Mick Deal '
 },
 {
     Text: ' Staff ',
-    Url: ' link-3.html ',
+    Url: ' staff.html',
+    Class: ' link-2 ',
+    Alt: ' Click here to visit Staff '
+},
+{
+    Text: ' Contact Us ',
+    Url: ' contact.html ',
     Class: ' Click here to visit Link-3 ',
-    Alt: ' Click Here to visit Link 3 '
+    Alt: ' Click Here to visit Contact Us '
 }
 
 
