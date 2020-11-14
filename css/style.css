@@ -14,6 +14,53 @@
     flex-grow: 1;
   }
 
+/* ======== MICK DEAL PAGE ========== */
+
+.bigmick-meal {
+    padding: 0px;
+    margin: 25px;
+    text-align: center;
+  }
+    .menu-items {
+      padding: 12vh 0;
+      text-align: center;
+      width: 100vw;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+    }
+    
+    .menu-item {
+      flex-basis: 30%;
+      padding: 10px;
+    }
+    
+    @media (min-width: 679px) {
+      .menu-items {
+        flex-direction: row;
+        
+      }
+    }
+  
+    /* Menu Button */
+    .order-here {
+      width: 100px;
+      height: 30px;
+      border: #FFCC00;
+      color: #FFCC00;
+      background-color: black;
+      border-radius: 4px;
+      box-shadow: inset 0 0 0 0 tomato;
+      transition: ease-out 0.3s;
+      outline: none;
+    }
+  
+    .order-here:hover {
+      box-shadow: inset 100px 0 0 0 tomato;
+      cursor: pointer;
+      color: black;
+    }
+
 
 /* ======= FOOTER ======== */
 
