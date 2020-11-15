@@ -17,48 +17,67 @@
 /* ======== MICK DEAL PAGE ========== */
 
 .bigmick-meal {
-    padding: 0px;
-    margin: 25px;
+   background-color: teal;
+   padding: 0px;
+   margin: 25px;
+   text-align: center;
+   color: black;
+}
+
+.menu-items {
+    background-color: tomato;
+    color: gold;  
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
+.menu-items figure {
+    flex-basis: 30%;
+    margin: auto;
+    width: 200px;
     text-align: center;
-  }
+}
+
+.menu-items figure img {
+    border: 1px solid gold;
+    border-radius: 10%;
+    box-shadow: black 5px 5px 15px;
+    width: 200px;
+}
+
+.menu-items figcaption {
+    padding: 10px;
+}
+    
+@media (min-width: 679px) {
     .menu-items {
-      padding: 12vh 0;
-      text-align: center;
-      width: 100vw;
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: column;
+    flex-direction: row;
+    padding: 20px;
     }
-    
-    .menu-item {
-      flex-basis: 30%;
-      padding: 10px;
-    }
-    
-    @media (min-width: 679px) {
-      .menu-items {
-        flex-direction: row;
-      }
-    }
+}
   
-    /* Menu Button */
-    .order-here {
-      width: 100px;
-      height: 30px;
-      border: #FFCC00;
-      color: #FFCC00;
-      background-color: black;
-      border-radius: 4px;
-      box-shadow: inset 0 0 0 0 tomato;
-      transition: ease-out 0.3s;
-      outline: none;
-    }
+    /* Menu Order Here Button */
+
+.order-here {
+    width: 100px;
+    height: 30px;
+    border: #FFCC00;
+    color: #FFCC00;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 tomato;
+    transition: ease-out 0.3s;
+    outline: none;
+}
   
-    .order-here:hover {
-      box-shadow: inset 100px 0 0 0 tomato;
-      cursor: pointer;
-      color: black;
-    }
+.order-here:hover {
+    box-shadow: inset 100px 0 0 0 purple;
+    cursor: pointer;
+    color: black;
+ }
 
 /* ======== STAFF PAGE ========== */
 
