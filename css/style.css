@@ -41,8 +41,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-
-
 .intro-text p {
   margin-top: 5px;
   font-size: 15px;
@@ -59,6 +57,7 @@
   filter: drop-shadow(0px 5px 3px black);
   animation: drop 1.5s ease;
   justify-content: flex-end;
+  z-index: -1;
 }
 
 @keyframes drop{
@@ -72,12 +71,27 @@
   }
 }
 
+@media screen and (min-width: 679px) {
+  .presentation {
+    flex-direction: row;
+  }
+  .cover img {
+    height: 65vh;
+    max-width: 800px;
+  }
+
+  .introduction {
+    text-align: left;
+  }
+}
+
+
+
 /* ======== MICK DEAL PAGE ========== */
 
 .bigmick-meal {
-   background-color: teal;
-   padding: 0px;
-   margin: 25px;
+   padding: 20px;
+   margin: auto;
    text-align: center;
    color: black;
 }
@@ -100,9 +114,9 @@
 }
 
 .menu-items figure img {
-    border: 1px solid gold;
+    border: 1px solid #434343;
     border-radius: 10%;
-    box-shadow: black 5px 5px 15px;
+    box-shadow: #434343 5px 5px 15px;
     width: 200px;
     height: 200px;
 }
@@ -117,7 +131,7 @@
   width: 100px;
   height: 30px;
   border: #FFCC00;
-  color: #FFCC00;
+  color: #FBB034;
   background-color: black;
   border-radius: 4px;
   box-shadow: inset 0 0 0 0 tomato;
@@ -126,23 +140,29 @@
 }
 
 .order-here:hover {
-  box-shadow: inset 100px 0 0 0 purple;
+  box-shadow: inset 100px 0 0 0 #FBB034;
   cursor: pointer;
   color: black;
 }
     
-@media (min-width: 679px) {
-    .menu-items {
+@media screen and (min-width: 679px) {
+  .bigmick-meal {
+    font-size: 60px;
+ }  
+  
+  .menu-items {
     flex-direction: row;
     padding: 20px;
+
     }
+      
 }
   
 
 /* ======== STAFF PAGE ========== */
 
 .staff {
-   background-color: teal;
+   /* background-color: #FBB034; */
    padding: 0px;
    margin: 25px;
    text-align: center;
@@ -150,8 +170,7 @@
 }
 
 .employees {
-  background-color: tomato;
-  color: gold;  
+  color: black;  
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -167,7 +186,7 @@
 }
 
 .employees figure img {
-    border: 1px solid gold;
+    border: 1px solid #FBB034;
     border-radius: 50%;
     box-shadow: black 5px 5px 15px;
     width: 200px;
@@ -183,10 +202,22 @@
       flex-direction: row;
       padding: 20px;
     }
+
+    .staff {
+      font-size: 60px;
+    }
   }
 
 
+
+
 /* ======== CONTACT PAGE ========== */
+
+.contact-us {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
 
 .wrapper {
     position: absolute;
@@ -247,6 +278,13 @@
     text-align: center;
     font-size: 14px;
     transition: all 0.5s ease;
+  }
+
+  @media screen and (min-width: 679px) {
+    .contact-us {
+      font-size: 60px;
+   }  
+  
   }
 
 
