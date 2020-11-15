@@ -14,6 +14,64 @@
     flex-grow: 1;
   }
 
+/* ======== HOME PAGE ======== */
+
+.presentation {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.introduction {
+  /* background-color: tomato; */
+  flex: 1;
+  margin-top: 5vh;
+  
+}
+
+.intro-text h1 {
+  font-size: 30px;
+  font-weight: 500;
+  background: linear-gradient(to right, #FFDD00, #FBB034);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.intro-text p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+}
+
+.cover {
+  flex: 2;
+  display: flex;
+}
+
+.cover img {
+  height: 60vh;
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
+  justify-content: flex-end;
+}
+
+@keyframes drop{
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 /* ======== MICK DEAL PAGE ========== */
 
 .bigmick-meal {
