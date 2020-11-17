@@ -14,8 +14,8 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(subject.length < 8){
-      text = "Please Enter Correct Subject";
+    if(subject.length < 5){
+      text = "Subject Must be More Than 5 Characters";
       error_message.innerHTML = text;
       return false;
     }
@@ -29,8 +29,8 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(message.length <= 10){
-      text = "Please Enter More Than 10 Characters";
+    if(message.length <= 5){
+      text = "Please Enter More Than 5 Characters";
       error_message.innerHTML = text;
       return false;
     }
