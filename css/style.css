@@ -229,6 +229,14 @@
   margin: auto;
 }
 
+.mcdowell {
+  float: right;
+}
+
+.mcdowell .wrapper {
+  flex-direction: column;
+
+}
 .wrapper {
     background-color: black;
     padding: 25px;
@@ -237,6 +245,7 @@
     margin: 10vh;
     max-width: 100%;
     width: 350px;
+    float: left;
 }
 
 .wrapper h2{
@@ -244,7 +253,7 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: goldenrod;
+    color: tomato;
   }
   
   .wrapper .input_field{
