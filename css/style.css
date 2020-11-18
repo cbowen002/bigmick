@@ -27,7 +27,6 @@
 }
 
 .introduction {
-  /* background-color: tomato; */
   flex: 1;
   margin-top: 5vh;
   
@@ -406,9 +405,9 @@
       height: 30vh;  
     } 
 
-    .footer-3 {
+    /* .footer-3 {
       display: ;
-    }
+    } */
 
     .footer-email-form {
        margin-bottom: 4rem;
