@@ -58,6 +58,10 @@ header {
 
 
 @media screen and (min-width: 678px) {
+    
+    /* body {
+        overflow-x: auto;
+    } */
     .nav {
         display: flex;
         position: relative;
@@ -81,6 +85,8 @@ header {
         font-size: 1.2em;
         display: none;
     }
+
+    
 }
 
 
